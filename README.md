@@ -1,0 +1,4 @@
+# Industrial-Drill-Rig - Stuffified Alloys
+> 
+> This is the branch of IDR for Stuffified Construction and Cupros' Alloys. See main branch for releases.
+> 
