@@ -23,8 +23,8 @@
 			<li>
 				<filter>
 					<categories>
-						<li>BaseMetals</li>
-						<li>MetalAlloys</li>
+						<li>Metals</li>
+						<li>CAL_Metals</li>
 					</categories>
 				</filter>
 				<count>10</count>
@@ -38,8 +38,8 @@
 				<li>Component</li>
 			</thingDefs>
 			<categories>
-				<li>BaseMetals</li>
-				<li>MetalAlloys</li>
+				<li>Metals</li>
+				<li>CAL_Metals</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
