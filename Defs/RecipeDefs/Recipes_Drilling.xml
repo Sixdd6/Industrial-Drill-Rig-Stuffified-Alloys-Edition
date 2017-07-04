@@ -69,7 +69,6 @@
   <defName>DrillJade</defName>
   <label>Extract Jade</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <Jade>10</Jade>
     </products>
   </RecipeDef>
@@ -79,7 +78,6 @@
     <defName>DrillAluminum</defName>
     <label>Extract Aluminum</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <CAL_Aluminum>10</CAL_Aluminum>
     </products>
   </RecipeDef>
@@ -88,7 +86,6 @@
     <defName>DrillCopper</defName>
     <label>Extract Copper</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <EXP_Copper>10</EXP_Copper>
     </products>
   </RecipeDef>
@@ -97,7 +94,6 @@
     <defName>DrillLead</defName>
     <label>Extract Lead</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <EXP_Lead>10</EXP_Lead>
     </products>
   </RecipeDef>        
@@ -106,7 +102,6 @@
     <defName>DrillTin</defName>
     <label>Extract Tin</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <EXP_Tin>10</EXP_Tin>
     </products>
   </RecipeDef>
@@ -116,7 +111,6 @@
     <defName>DrillCharcoal</defName>
     <label>Extract Charcoal</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <Charcoal>10</Charcoal>
     </products>
   </RecipeDef>
@@ -125,7 +119,6 @@
   <defName>DrillCinnabar</defName>
   <label>Extract Cinnabar</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <Cinnabar>10</Cinnabar>
     </products>
   </RecipeDef>
@@ -134,7 +127,6 @@
   <defName>DrillGarnet</defName>
   <label>Extract Garnet</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <Garnet>10</Garnet>
     </products>
   </RecipeDef>
@@ -143,7 +135,6 @@
   <defName>DrillPeridot</defName>
   <label>Extract Peridot</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <Peridot>10</Peridot>
     </products>
   </RecipeDef>
@@ -152,7 +143,6 @@
   <defName>DrillAmethyst</defName>
   <label>Extract Amethyst</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <Amethyst>10</Amethyst>
     </products>
   </RecipeDef>
@@ -161,7 +151,6 @@
   <defName>DrillCitrine</defName>
   <label>Extract Citrine</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <Citrine>10</Citrine>
     </products>
   </RecipeDef>
@@ -170,7 +159,6 @@
   <defName>DrillTopaz</defName>
   <label>Extract Topaz</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <Topaz>10</Topaz>
     </products>
   </RecipeDef>
@@ -179,7 +167,6 @@
   <defName>DrillTurquoise</defName>
   <label>Extract Turquoise</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <Turquoise>10</Turquoise>
     </products>
   </RecipeDef>
