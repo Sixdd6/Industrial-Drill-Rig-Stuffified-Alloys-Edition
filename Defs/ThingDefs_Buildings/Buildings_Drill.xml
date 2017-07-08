@@ -43,8 +43,18 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>1200</basePowerConsumption>
+        <basePowerConsumption>600</basePowerConsumption>
         <startElectricalFires>true</startElectricalFires>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>50.0</fuelConsumptionRate>
+        <fuelCapacity>100.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_HeatPusher">
