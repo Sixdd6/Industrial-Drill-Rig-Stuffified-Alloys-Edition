@@ -4,13 +4,14 @@
   <!-- =========== Base Recipes =========== -->
   
   <RecipeDef Name="DrillRecipeBase" Abstract="True">
-	<defName>DrillRecipeBase</defName>
-	<description>Locate and extract minerals from within the earth.</description>
-	<jobString>Mining.</jobString>
-	<workSpeedStat>MiningSpeed</workSpeedStat>
+    <defName>DrillRecipeBase</defName>
+    <description>Locate and extract minerals from within the earth.</description>
+    <jobString>Mining.</jobString>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
+    <unfinishedThingDef>UnfinishedPDADrillingUnknown</unfinishedThingDef>
     <workSkill>Mining</workSkill>
     <workSkillLearnFactor>5</workSkillLearnFactor>
-	<effectWorking>ConstructMetal</effectWorking>
+    <effectWorking>ConstructMetal</effectWorking>
     <soundWorking>WorkingSound_DrillRig</soundWorking>
   </RecipeDef>
 	
@@ -28,7 +29,7 @@
     <products>
       <IndustrialPDA>1</IndustrialPDA>
     </products>
-    <workAmount>600</workAmount>
+    <workAmount>9000</workAmount>
     <recipeUsers>
       <li>IndustrialDrillRig</li>
     </recipeUsers>
@@ -44,6 +45,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
 	<defName>DrillGold</defName>
 	<label>Extract Gold</label>
+  <unfinishedThingDef>UnfinishedPDADrillingGold</unfinishedThingDef>
     <products>
       <Gold>50</Gold>
     </products>
@@ -52,6 +54,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
 	<defName>DrillUranium</defName>
 	<label>Extract Uranium</label>
+  <unfinishedThingDef>UnfinishedPDADrillingUranium</unfinishedThingDef>
     <products>
       <Uranium>50</Uranium>
     </products>
@@ -60,6 +63,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
 	<defName>DrillSilver</defName>
 	<label>Extract Silver</label>
+  <unfinishedThingDef>UnfinishedPDADrillingSilver</unfinishedThingDef>
     <products>
       <Silver>50</Silver>
     </products>
@@ -68,6 +72,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
   <defName>DrillJade</defName>
   <label>Extract Jade</label>
+  <unfinishedThingDef>UnfinishedPDADrillingGemJade</unfinishedThingDef>
     <products>
       <Jade>10</Jade>
     </products>
@@ -77,6 +82,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
     <defName>DrillAluminum</defName>
     <label>Extract Aluminum</label>
+    <unfinishedThingDef>UnfinishedPDADrillingCALAluminum</unfinishedThingDef>
     <products>
       <CAL_Aluminum>10</CAL_Aluminum>
     </products>
@@ -85,6 +91,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
     <defName>DrillCopper</defName>
     <label>Extract Copper</label>
+    <unfinishedThingDef>UnfinishedPDADrillingCALCopper</unfinishedThingDef>
     <products>
       <EXP_Copper>10</EXP_Copper>
     </products>
@@ -93,6 +100,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
     <defName>DrillLead</defName>
     <label>Extract Lead</label>
+    <unfinishedThingDef>UnfinishedPDADrillingCALLead</unfinishedThingDef>
     <products>
       <EXP_Lead>10</EXP_Lead>
     </products>
@@ -101,6 +109,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
     <defName>DrillTin</defName>
     <label>Extract Tin</label>
+    <unfinishedThingDef>UnfinishedPDADrillingCALTin</unfinishedThingDef>
     <products>
       <EXP_Tin>10</EXP_Tin>
     </products>
@@ -110,6 +119,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
     <defName>DrillCharcoal</defName>
     <label>Extract Charcoal</label>
+    <unfinishedThingDef>UnfinishedPDADrillingCharcoal</unfinishedThingDef>
     <products>
       <Charcoal>10</Charcoal>
     </products>
@@ -118,6 +128,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
   <defName>DrillCinnabar</defName>
   <label>Extract Cinnabar</label>
+  <unfinishedThingDef>UnfinishedPDADrillingGemCinnabar</unfinishedThingDef>
     <products>
       <Cinnabar>10</Cinnabar>
     </products>
@@ -126,6 +137,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
   <defName>DrillGarnet</defName>
   <label>Extract Garnet</label>
+  <unfinishedThingDef>UnfinishedPDADrillingGemGarnet</unfinishedThingDef>
     <products>
       <Garnet>10</Garnet>
     </products>
@@ -134,6 +146,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
   <defName>DrillPeridot</defName>
   <label>Extract Peridot</label>
+  <unfinishedThingDef>UnfinishedPDADrillingGemPeridot</unfinishedThingDef>
     <products>
       <Peridot>10</Peridot>
     </products>
@@ -142,6 +155,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
   <defName>DrillAmethyst</defName>
   <label>Extract Amethyst</label>
+  <unfinishedThingDef>UnfinishedPDADrillingGemAmethyst</unfinishedThingDef>
     <products>
       <Amethyst>10</Amethyst>
     </products>
@@ -150,6 +164,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
   <defName>DrillCitrine</defName>
   <label>Extract Citrine</label>
+  <unfinishedThingDef>UnfinishedPDADrillingGemCitrine</unfinishedThingDef>
     <products>
       <Citrine>10</Citrine>
     </products>
@@ -158,6 +173,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
   <defName>DrillTopaz</defName>
   <label>Extract Topaz</label>
+  <unfinishedThingDef>UnfinishedPDADrillingGemTopaz</unfinishedThingDef>
     <products>
       <Topaz>10</Topaz>
     </products>
@@ -166,6 +182,7 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
   <defName>DrillTurquoise</defName>
   <label>Extract Turquoise</label>
+  <unfinishedThingDef>UnfinishedPDADrillingGemTurquoise</unfinishedThingDef>
     <products>
       <Turquoise>10</Turquoise>
     </products>
