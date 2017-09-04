@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<Operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThingDef[defName="VG_Biofuel"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName="IndustrialDrillRig"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+			<order>Append</order>
+				<value>
+					<li>VG_Biofuel</li>
+				</value>
+			</li>
+		</Operations>
+	</Operation>
+
+</Patch>
